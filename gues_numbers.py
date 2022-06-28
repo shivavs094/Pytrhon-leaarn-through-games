@@ -12,7 +12,7 @@ def guess (x):
     print(f'yay, concrats. you have gussed the number {random_number}')
 guess(10)
 
-def comuter_guss(x):
+def computer_guss(x):
     low=1
     high= x
     feedback=''
@@ -29,4 +29,4 @@ def comuter_guss(x):
 
     print(f'yay! the computer gussed your number, {guess},correctly!')
 
-comuter_guss(1000)
+computer_guss(1000)
